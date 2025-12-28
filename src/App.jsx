@@ -4,6 +4,7 @@ import Hero from './components/Hero';
 import Vision from './components/Vision';
 import Techniques from './components/Techniques';
 import Teachers from './components/Teachers';
+import ClassroomGallery from './components/ClassroomGallery';
 import Register from './components/Register';
 import Footer from './components/Footer';
 import ComingSoon from './components/ComingSoon';
@@ -26,6 +27,7 @@ function App() {
             <Route path="/vision" element={<Vision />} />
             <Route path="/techniques" element={<Techniques />} />
             <Route path="/teachers" element={<Teachers />} />
+            <Route path="/classrooms" element={<ClassroomGallery />} />
             <Route path="/admission" element={<ComingSoon />} />
           </Routes>
         </main>
